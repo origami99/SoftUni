@@ -2,40 +2,40 @@
 
 class BalancedBrackets
 {
-    static void Main()
+    static void Main(string[] args)
     {
-        byte n = byte.Parse(Console.ReadLine());
+        int n = int.Parse(Console.ReadLine());
 
-        byte openBracketsCount = 0;
-        byte closedBracketsCount = 0;
+        string lastBracket = "";
+        string balance = "BALANCED";
 
         for (int i = 0; i < n; i++)
         {
-            string text = Console.ReadLine();
-
-            if (text == "(")
+            string currentStr = Console.ReadLine();
+            if (currentStr == "(")
             {
-                openBracketsCount++;
-            }
-            else if (text == ")")
-            {
-                closedBracketsCount++;
-
-                if (openBracketsCount == 0)
+                if (lastBracket == "(")
                 {
-                    Console.WriteLine("UNBALANCED");
-                    return;
+                    balance = "UNBALANCED";
+                    break;
                 }
+                lastBracket = "(";
+            }
+            if (currentStr == ")")
+            {
+                if (lastBracket != "(")
+                {
+                    balance = "UNBALANCED";
+                    break;
+                }
+                lastBracket = ")";
             }
         }
+        if (lastBracket == "(")
+        {
+            balance = "UNBALANCED";
+        }
 
-        if (openBracketsCount == closedBracketsCount)
-        {
-            Console.WriteLine("BALANCED");
-        }
-        else
-        {
-            Console.WriteLine("UNBALANCED");
-        }
+        Console.WriteLine(balance);
     }
 }
