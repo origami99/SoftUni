@@ -13,47 +13,32 @@ class EqualSums
             return;
         }
 
-        int countEqualSums = 0;
+        int? indexOfEqualSides = null;
 
-        for (int i = 0; i < arr.Length; i++)
+        for (int i = 0; i <= arr.Length - 1; i++)
         {
             int leftSum = 0;
             int rightSum = 0;
 
-            // It's not working, cuz not passes through all cases,
-            for (int j = 0; j < arr.Length; j++)
+            for (int j = 0; j < i; j++)
             {
-                if (j <= i)
-                {
-                    leftSum += arr[j];
-                }
-                else
-                {
-                    break;
-                }
+                leftSum += arr[j];
             }
 
-            for (int k = 0; k < arr.Length; k++)
+            for (int k = i + 1; k < arr.Length; k++)
             {
-                if (k <= i)
-                {
-                    rightSum += arr[(arr.Length - 1) - k];
-                }
-                else
-                {
-                    break;
-                }
+                rightSum += arr[k];
             }
 
             if (leftSum == rightSum)
             {
-                countEqualSums++;
+                indexOfEqualSides = i;
             }
         }
 
-        if (countEqualSums != 0)
+        if (indexOfEqualSides.HasValue)
         {
-            Console.WriteLine(countEqualSums);
+            Console.WriteLine(indexOfEqualSides);
         }
         else
         {
