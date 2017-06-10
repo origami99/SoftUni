@@ -5,7 +5,10 @@ class ArrayStatistics
 {
     static void Main()
     {
-        int[] arr = Console.ReadLine().Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToArray();
+        int[] arr = Console.ReadLine()
+            .Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
+            .Select(int.Parse)
+            .ToArray();
 
         int min = FindMin(arr);
         int max = FindMax(arr);

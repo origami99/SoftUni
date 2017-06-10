@@ -5,7 +5,9 @@ class SafeManipulation
 {
     static void Main()
     {
-        string[] arr = Console.ReadLine().Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).ToArray();
+        string[] arr = Console.ReadLine()
+            .Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
+            .ToArray();
 
         while (true)
         {

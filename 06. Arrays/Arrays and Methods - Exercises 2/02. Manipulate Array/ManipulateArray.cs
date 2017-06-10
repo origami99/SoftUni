@@ -5,7 +5,9 @@ class ManipulateArray
 {
     static void Main()
     {
-        string[] arr = Console.ReadLine().Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).ToArray();
+        string[] arr = Console.ReadLine()
+            .Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
+            .ToArray();
         int n = int.Parse(Console.ReadLine());
 
         for (int i = 0; i < n; i++)

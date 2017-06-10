@@ -5,7 +5,10 @@ class GrabAndGo
 {
     static void Main()
     {
-        long[] arr = Console.ReadLine().Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).Select(long.Parse).ToArray();
+        long[] arr = Console.ReadLine()
+            .Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
+            .Select(long.Parse)
+            .ToArray();
         long num = long.Parse(Console.ReadLine());
 
         int? specialIndex = null;
