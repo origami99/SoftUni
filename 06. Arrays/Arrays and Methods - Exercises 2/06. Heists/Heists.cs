@@ -15,7 +15,6 @@ class Heists
         long jewelPrice = prices[0];
         long goldPrice = prices[1];
 
-        long totalExpenses = 0;
         long netIncome = 0;
 
         while (true)
@@ -47,7 +46,6 @@ class Heists
                 }
             }
 
-            totalExpenses += expenses;
             netIncome += loot - expenses;
         }
 
