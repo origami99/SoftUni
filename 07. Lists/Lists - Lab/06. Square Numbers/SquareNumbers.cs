@@ -10,7 +10,6 @@ class SquareNumbers
             .Split(' ')
             .Select(int.Parse)
             .ToList();
-
         List<int> exactSqrts = new List<int>();
 
         for (int i = 0; i < nums.Count; i++)
