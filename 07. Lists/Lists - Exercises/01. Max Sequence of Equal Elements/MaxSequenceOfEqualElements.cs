@@ -1,50 +1,49 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 class MaxSequenceOfEqualElements
 {
     static void Main()
     {
-        int[] nums = Console.ReadLine()
+        List<int> nums = Console.ReadLine()
             .Split(' ')
             .Select(int.Parse)
-            .ToArray();
+            .ToList();
 
-        int currLength = 0;
-        int? currStart = null;
-        int? prevNum = null;
-        int? bestStart = null;
-        int bestLength = int.MinValue;
-
-        for (int i = 0; i < nums.Length; i++)
+        int length = 0;
+        int start = 0;
+        int bestLength = 0;
+        int bestStart = 0;
+        for (int i = 0; i < nums.Count; i++)
         {
-            if (nums[i] == prevNum)
+            if (i != nums.Count - 1)
             {
-                if (currLength == 0)
+                if (nums[i] == nums[i + 1])
                 {
-                    currStart = i;
+                    if (length == 0)
+                    {
+                        start = i;
+                    }
+
+                    length++;
                 }
-
-                currLength++;
-
-                if (currLength > bestLength)
+                else
                 {
-                    bestLength = currLength;
-                    bestStart = currStart;
+                    length = 0;
                 }
             }
-            else
+
+            if (length > bestLength)
             {
-                currLength = 0;
+                bestLength = length;
+                bestStart = start;
             }
-
-            prevNum = nums[i];
         }
 
-        for (int i = 0; i <= bestLength; i++)
+        for (int i = bestStart; i <= bestStart + bestLength; i++)
         {
-            Console.Write(nums[(int)bestStart] + " ");
+            Console.Write(nums[i] + " ");
         }
-        Console.WriteLine();
     }
 }
