@@ -77,7 +77,7 @@ class HandsOfCards
                         power = 14;
                         break;
                     default:
-                        power = card[0] - '0';
+                        power = card[0] - '0'; 
                         break;
                 }
             }
