@@ -1,6 +1,6 @@
 ﻿using System;
 
-class ClosestTwoPoints
+class Rectangle
 {
     static void Main()
     {
