@@ -1,36 +1,43 @@
 ﻿using System;
 using System.Linq;
 
+class Point
+{
+    public int X { get; set; }
+    public int Y { get; set; }
+}
+
 class DistanceBetweenPoints
 {
     static void Main()
     {
-        int[] p1 = Console.ReadLine()
-            .Split(' ')
-            .Select(int.Parse)
-            .ToArray();
-        int[] p2 = Console.ReadLine()
-            .Split(' ')
-            .Select(int.Parse)
-            .ToArray();
+        Point p1 = ReadPoint();
+        Point p2 = ReadPoint();
 
         double distance = GetDistance(p1, p2);
 
         Console.WriteLine($"{distance:F3}");
     }
 
-    private static double GetDistance(int[] p1, int[] p2)
+    private static Point ReadPoint()
     {
-        int x1 = p1.First();
-        int y1 = p1.Last();
-        int x2 = p2.First();
-        int y2 = p2.Last();
+        int[] coordinates = Console.ReadLine()
+            .Split(' ')
+            .Select(int.Parse)
+            .ToArray();
 
-        int a = Math.Abs(x1 - x2);
-        int b = Math.Abs(y1 - y2);
+        Point p = new Point { X = coordinates[0], Y = coordinates[1] };
 
-        double c = Math.Sqrt(a * a + b * b);
+        return p;
+    }
 
-        return c;
+    private static double GetDistance(Point p1, Point p2)
+    {
+        int leg1 = Math.Abs(p1.X - p2.X);
+        int leg2 = Math.Abs(p1.Y - p2.Y);
+
+        double distance = Math.Sqrt(leg1 * leg1 + leg2 * leg2);
+
+        return distance;
     }
 }
