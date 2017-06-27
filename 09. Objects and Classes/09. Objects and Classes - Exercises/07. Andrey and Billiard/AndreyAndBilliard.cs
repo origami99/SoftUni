@@ -7,13 +7,12 @@ class Customer
     public string Name { get; set; }
     public Dictionary<string, double> ShopList { get; set; }
     public double Bill { get; set; }
-
 }
+
 class Program
 {
     static void Main()
     {
-
         int numberOfItems = int.Parse(Console.ReadLine());
 
         Dictionary<string, double> menu = new Dictionary<string, double>();
@@ -25,6 +24,7 @@ class Program
 
             menu[input[0]] = double.Parse(input[1]);
         }
+
         List<Customer> students = new List<Customer>();
         while (true)
         {
