@@ -1,9 +1,35 @@
 ﻿using System;
 
-class PersonalException
+class PersonalException : Exception
 {
-    static void Main()
+    public PersonalException() : base("My first exception is awesome!!!")
     {
 
+    }
+}
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        try
+        {
+            while (true)
+            {
+                int number = int.Parse(Console.ReadLine());
+
+                if (number < 0)
+                {
+                    throw new PersonalException();
+                }
+
+                Console.WriteLine(number);
+            }
+        }
+        catch (PersonalException pe)
+        {
+            Console.WriteLine(pe.Message);
+            return;
+        }
     }
 }
