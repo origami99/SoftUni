@@ -5,10 +5,13 @@ class MatchFullName
 {
     static void Main()
     {
-       MatchCollection names = Regex
-            .Matches(Console.ReadLine(), @"\b[A-Z][a-z]+ [A-Z][a-z]+\b");
+        string names = Console.ReadLine();
+        string pattern = @"\b[A-Z][a-z]+ [A-Z][a-z]+\b";
 
-        foreach (var name in names)
+        MatchCollection validNames = Regex
+            .Matches(names, pattern);
+
+        foreach (var name in validNames)
         {
             Console.Write($"{name} ");
         }
