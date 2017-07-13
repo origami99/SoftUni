@@ -1,0 +1,2 @@
+This was my exam in SoftUni, so the code is unchanged from the original submit.
+It can be inproved, I know!
