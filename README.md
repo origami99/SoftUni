@@ -1,1 +1,1 @@
-Here you can find all the solutions of the exercises from the "Programming Fundamentals (Intensive)" course in Software University (www.softuni.bg)
+Here you can find all the solutions of the exercises from the Software University's courses (www.softuni.bg)
