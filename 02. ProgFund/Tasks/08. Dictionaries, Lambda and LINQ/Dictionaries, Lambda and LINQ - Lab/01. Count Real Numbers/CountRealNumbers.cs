@@ -27,7 +27,7 @@ class CountRealNumbers
 
         foreach (var num in globalCounter)
         {
-            Console.WriteLine($"{num.Key} -> {num.Value} times");
+            Console.WriteLine($"{num.Key} -> {num.Value}");
         }
     }
 }

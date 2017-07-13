@@ -6,20 +6,15 @@ class OddOccurrences
 {
     static void Main()
     {
-        string[] words = Console.ReadLine().Split();
+        string[] words = Console.ReadLine().ToLower().Split();
 
-        Dictionary<string, int> wordCounter = new Dictionary<string, int>();
+        Dictionary<string, int> wordCounter = words
+            .GroupBy(x => x)
+            .ToDictionary(x => x.Key, x => x.Count());
 
-        foreach (string word in words)
-        {
-            if (wordCounter.ContainsKey(word)) { wordCounter[word]++; }
-            else { wordCounter[word] = 1; }
-        }
-
-        //wordCounter = wordCounter
-        //    .Select(x => x.Key.ToLower())
-        //    .Where(x => x.Value % 2 != 0)
-        //    .ToDictionary(x => x.Key, x => x.Value);
+        wordCounter = wordCounter
+            .Where(x => x.Value % 2 != 0)
+            .ToDictionary(x => x.Key, x => x.Value);
 
         Console.WriteLine(string.Join(", ", wordCounter.Keys));
     }
