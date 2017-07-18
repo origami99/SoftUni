@@ -18,19 +18,34 @@
         $y = $_GET['num2'];
         $z = $_GET['num3'];
 
-        if(substr($x, 0, 1) === '0' ||
-            substr($y, 0, 1) === '0' ||
-            substr($z, 0, 1) === '0'){
+        if(isZero($x) || isZero($y) || isZero($z)){
             echo 'Positive';
         }
         else{
             $negativeCount = 0;
+
             if(isPositive($x))
                 $negativeCount++;
             if(isPositive($y))
                 $negativeCount++;
-            //TODO:
+            if(isPositive($z))
+                $negativeCount++;
+
+            if($negativeCount % 2 != 0){
+                echo 'Positive';
+            }
+            else{
+                echo 'Negative';
+            }
         }
+    }
+
+    function isZero($n){
+        if(substr($n, 0, 1) === '0'){
+            return true;
+        }
+
+        return false;
     }
 
     function isPositive($n){

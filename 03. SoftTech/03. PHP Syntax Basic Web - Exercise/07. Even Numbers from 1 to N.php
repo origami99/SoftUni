@@ -10,6 +10,14 @@
         N: <input type="text" name="num" />
         <input type="submit" />
     </form>
-	<!--Write your PHP Script here-->
+    <?php
+    if(isset($_GET['num'])){
+        $n = intval($_GET['num']);
+
+        for($i = 2; $i <= $n; $i += 2){
+            echo "$i ";
+        }
+    }
+    ?>
 </body>
 </html>

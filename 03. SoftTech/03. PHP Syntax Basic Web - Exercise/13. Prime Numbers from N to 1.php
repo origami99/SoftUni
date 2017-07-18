@@ -10,6 +10,6 @@
         N: <input type="text" name="num" />
         <input type="submit" />
     </form>
-	<!--Write your PHP Script here-->
+    
 </body>
 </html>
