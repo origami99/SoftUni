@@ -21,17 +21,17 @@
             echo '1 1';
         }
         else {
-            $fib_arr = [1, 1, 2];
+            $fibArr = [1, 1, 2];
 
             for ($i = 0; $i < $n - 3; $i++) {
-                $first = $fib_arr[count($fib_arr) - 3];
-                $second = $fib_arr[count($fib_arr) - 2];
-                $third = $fib_arr[count($fib_arr) - 1];
+                $first = $fibArr[count($fibArr) - 3];
+                $second = $fibArr[count($fibArr) - 2];
+                $third = $fibArr[count($fibArr) - 1];
 
-                array_push($fib_arr, ($first + $second + $third));
+                array_push($fibArr, ($first + $second + $third));
             }
 
-            echo implode(' ', $fib_arr);
+            echo implode(' ', $fibArr);
         }
     }
     ?>

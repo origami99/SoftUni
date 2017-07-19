@@ -18,16 +18,16 @@
             echo 1;
         }
         else {
-            $fib_arr = [1, 1];
+            $fibArr = [1, 1];
 
             for ($i = 0; $i < $n - 2; $i++) {
-                $first = $fib_arr[count($fib_arr) - 2];
-                $second = $fib_arr[count($fib_arr) - 1];
+                $first = $fibArr[count($fibArr) - 2];
+                $second = $fibArr[count($fibArr) - 1];
 
-                array_push($fib_arr, ($first + $second));
+                array_push($fibArr, ($first + $second));
             }
 
-            echo implode(' ', $fib_arr);
+            echo implode(' ', $fibArr);
         }
     }
     ?>

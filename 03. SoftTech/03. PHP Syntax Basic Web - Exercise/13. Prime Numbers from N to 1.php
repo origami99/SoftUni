@@ -14,26 +14,26 @@
     if(isset($_GET['num'])){
         $n = intval($_GET['num']);
 
-        $prime_nums = array();
+        $PrimeNums = array();
 
         for($i = 2; $i <= $n; $i++){
 
-            $is_prime = true;
+            $isPrime = true;
             for($j = 2; $j <= $i; $j++){
                 if($i % $j === 0 && $i !== $j){
-                    $is_prime = false;
+                    $isPrime = false;
                     break;
                 }
             }
 
-            if($is_prime){
-                array_push($prime_nums, $i);
+            if($isPrime){
+                array_push($PrimeNums, $i);
             }
         }
 
-        $prime_nums = array_reverse($prime_nums);
+        $PrimeNums = array_reverse($PrimeNums);
 
-        foreach($prime_nums as $num){
+        foreach($PrimeNums as $num){
             echo "$num ";
         }
     }
