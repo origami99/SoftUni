@@ -55,15 +55,6 @@ class LegendaryFarming
         PrintJunkMaterials(materials);
     }
 
-    private static Dictionary<string, int> OrderByName(Dictionary<string, int> materials)
-    {
-        materials = materials
-            .OrderBy(x => x.Key)
-            .ToDictionary(x => x.Key, x => x.Value);
-
-        return materials;
-    }
-
     private static void ReceiveMaterials(out string[] resourse, out int[] quantities)
     {
         string[] loot = Console.ReadLine()
@@ -113,7 +104,7 @@ class LegendaryFarming
     {
         foreach (var item in materials)
         {
-            if (item.Key == "shards" ||
+            if (item.Key == "shards" || 
                 item.Key == "fragments" || 
                 item.Key == "motes")
             {
@@ -127,6 +118,15 @@ class LegendaryFarming
         materials.Remove("shards");
         materials.Remove("fragments");
         materials.Remove("motes");
+    }
+
+    private static Dictionary<string, int> OrderByName(Dictionary<string, int> materials)
+    {
+        materials = materials
+            .OrderBy(x => x.Key)
+            .ToDictionary(x => x.Key, x => x.Value);
+
+        return materials;
     }
 
     private static void PrintJunkMaterials(Dictionary<string, int> materials)
