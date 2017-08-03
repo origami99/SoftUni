@@ -20,5 +20,3 @@ function solve(input) {
         return reversed;
     }
 }
-
-solve( '123 234 12' );
