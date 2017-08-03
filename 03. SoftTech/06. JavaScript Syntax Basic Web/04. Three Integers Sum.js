@@ -1,5 +1,5 @@
-function solve(nums) {
-    nums.split(' ').map(Number);
+function solve(input) {
+    let nums = input[0].split(' ').map(Number);
 
     let num1 = nums[0];
     let num2 = nums[1];
