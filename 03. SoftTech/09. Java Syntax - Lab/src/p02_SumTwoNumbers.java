@@ -9,7 +9,7 @@ public class p02_SumTwoNumbers {
         double num2 = Double.parseDouble(console.nextLine());
 
         double sum = num1 + num2;
-        
+
         System.out.println(sum);
     }
 }
