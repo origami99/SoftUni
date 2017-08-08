@@ -4,11 +4,19 @@ public class p18_Phonebook {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
 
-        LinkedHashMap<String, String> phonebook = new LinkedHashMap<>();
+        TreeMap<String, String> phonebook = new TreeMap<>();
         while(true){
             String[] input = console.nextLine().split(" ");
             if(input[0].equals("END")){
                 break;
+            }
+
+            if (input[0].equals("ListAll")){
+                for (Map.Entry<String, String> entry : phonebook.entrySet()) {
+                    System.out.println(entry.getKey() + " -> " + entry.getValue());
+                }
+
+                continue;
             }
 
             String action = input[0];
@@ -19,7 +27,7 @@ public class p18_Phonebook {
 
                 phonebook.put(name, phone);
             }
-            else{
+            else if (action.equals("S")){
                 if(phonebook.containsKey(name)){
                     System.out.println(name + " -> " + phonebook.get(name));
                 }
