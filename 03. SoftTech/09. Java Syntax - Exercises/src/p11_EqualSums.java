@@ -10,7 +10,7 @@ public class p11_EqualSums {
                 .mapToInt(Integer::parseInt)
                 .toArray();
 
-        if (nums.length == 1){
+        if (nums.length == 1) {
             System.out.println(0);
             return;
         }
