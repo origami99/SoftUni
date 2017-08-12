@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="layout :: site-head">
+    <title>Users</title>
+</head>
+
+
+<body>
+<header th:replace="layout :: site-header" />
+
+
+<main id="posts">
+    <table class="postsTable">
+        <tr>
+            <th>ID</th>
+            <th>Username</th>
+            <th>Fullname</th>
+        </tr>
+    <!--/*@thymesVar id="allUsers" type="blog"*/-->
+    <tr th:each="u : ${allUsers}">
+        <td th:text="${u.id}">User ID</td>
+        <td th:utext="${u.username}">Username</td>
+        <td th:text="${u.fullName}"></td>
+        </tr>
+    </table>
+</main>
+
+<footer th:replace="layout :: site-footer" />
+
+</body>
+
+</html>

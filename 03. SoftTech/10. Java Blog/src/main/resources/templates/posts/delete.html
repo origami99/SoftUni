@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<!--/*@thymesVar id="postDelete" type="blog"*/-->
+<head th:replace="layout :: site-head">
+    <title th:text="${postDelete.title}">View Post</title>
+</head>
+
+<body>
+<header th:replace="layout :: site-header" />
+
+<main id="posts">
+    <article>
+        <h2 class="title" th:text="${postDelete.title}">Post Title</h2>
+        <div class="date">
+            <i>Posted on</i>
+            <span th:text="${#dates.format(postDelete.date, 'dd-MM-yyyy')}">22-May-2016</span>
+            <i>by</i>
+            <span th:if="${postDelete.author}" th:remove="tag">
+
+                    <span th:text="${postDelete.author.fullName != null ?
+                         postDelete.author.fullName : postDelete.author.username}">Svetlin Nakov</span>
+                </span>
+        </div>
+        <p class="content" th:utext="${postDelete.body}">Post content</p>
+    </article>
+    <form method="post">
+    <div><input type="submit" value="Delete"/>
+        <a href="index.html" th:href="@{/}">[Cancel]</a></div>
+        </form>
+</main>
+
+<footer th:replace="layout :: site-footer" />
+</body>
+
+</html>
+
+
