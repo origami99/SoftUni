@@ -12,7 +12,6 @@ class SweetDessert
 
         int setsCount = guestsCount / 6;
         if (guestsCount % 6 != 0) { setsCount++; }
-
         double setCost = 2 * bananaPrice + 4 * eggPrice + 0.2 * berriesKiloPrice;
         double totalCost = setsCount * setCost;
 
