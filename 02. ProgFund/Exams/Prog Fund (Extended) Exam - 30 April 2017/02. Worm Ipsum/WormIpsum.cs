@@ -1,6 +1,6 @@
 ﻿using System;
 
-class Program
+class WormIpsum
 {
     static void Main()
     {
