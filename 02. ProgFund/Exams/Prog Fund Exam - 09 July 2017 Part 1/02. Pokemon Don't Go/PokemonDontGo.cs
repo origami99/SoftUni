@@ -1,13 +1,15 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 class PokemonDontGo
 {
     static void Main()
     {
         List<int> nums = Console.ReadLine()
-    .Split(new char[] { ' ', '\t' }, StringSplitOptions.RemoveEmptyEntries)
-    .Select(x => int.Parse(x))
-    .ToList();
+            .Split(new char[] { ' ', '\t' }, StringSplitOptions.RemoveEmptyEntries)
+            .Select(x => int.Parse(x))
+            .ToList();
 
         List<int> removed = new List<int>();
 
