@@ -1,0 +1,3 @@
+value = float(input())
+
+# TODO
