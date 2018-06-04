@@ -83,19 +83,45 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Academy Graduation", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Sets of Elements_v2", "02. Sets of Elements_v2\02. Sets of Elements_v2.csproj", "{8D82DBE2-5C49-4753-ADF9-CC89C583ABED}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Multidimensional Arrays - Lab", "Multidimensional Arrays - Lab", "{E262297D-CF39-4D18-B98E-DDC3042554DC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Multidimensional Arrays - Lab", "03. Multidimensional Arrays - Lab", "{E262297D-CF39-4D18-B98E-DDC3042554DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Sum Matrix Elements", "01. Sum Matrix Elements\01. Sum Matrix Elements.csproj", "{5F3A5BA3-DB78-4572-9E85-1730B22D6E20}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Sum Matrix Elements", "03. Multidimensional Arrays - Lab\01. Sum Matrix Elements\01. Sum Matrix Elements.csproj", "{5F3A5BA3-DB78-4572-9E85-1730B22D6E20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Maximum sum of 2x2 submatrix", "02. Maximum sum of 2x2 submatrix\02. Maximum sum of 2x2 submatrix.csproj", "{F5185C2C-04F1-4787-84DF-B8262CBF59D7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Sum Matrix Elements_v2", "03. Multidimensional Arrays - Lab\01. Sum Matrix Elements_v2\01. Sum Matrix Elements_v2.csproj", "{4EE8DF68-BBB9-4081-B09B-3C1F088ADFF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Group Numbers", "03. Group Numbers\03. Group Numbers.csproj", "{3203C46C-5564-46FB-94DE-01E8979FF252}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Sum Matrix Elements_v3", "03. Multidimensional Arrays - Lab\01. Sum Matrix Elements_v3\01. Sum Matrix Elements_v3.csproj", "{46A4F0BA-2A79-4A1E-8795-C3A3C5318325}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Pascal Triangle", "04. Pascal Triangle\04. Pascal Triangle.csproj", "{2EE0AE17-9F53-4F43-A053-CDDCCCB8C7CB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Maximum sum of 2x2 submatrix", "03. Multidimensional Arrays - Lab\02. Maximum sum of 2x2 submatrix\02. Maximum sum of 2x2 submatrix.csproj", "{F5185C2C-04F1-4787-84DF-B8262CBF59D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Sum Matrix Elements_v2", "01. Sum Matrix Elements_v2\01. Sum Matrix Elements_v2.csproj", "{4EE8DF68-BBB9-4081-B09B-3C1F088ADFF1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Group Numbers", "03. Multidimensional Arrays - Lab\03. Group Numbers\03. Group Numbers.csproj", "{3203C46C-5564-46FB-94DE-01E8979FF252}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Sum Matrix Elements_v3", "01. Sum Matrix Elements_v3\01. Sum Matrix Elements_v3.csproj", "{46A4F0BA-2A79-4A1E-8795-C3A3C5318325}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Pascal Triangle", "03. Multidimensional Arrays - Lab\04. Pascal Triangle\04. Pascal Triangle.csproj", "{2EE0AE17-9F53-4F43-A053-CDDCCCB8C7CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Multidimensional Arrays - Exercise", "03. Multidimensional Arrays - Exercise", "{B8D3D5D5-E870-4226-A1AD-D6AA855E646A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Matrix of Palindromes", "03. Multidimentional Arrays - Exercise\01. Matrix of Palindromes\01. Matrix of Palindromes.csproj", "{CE96BCD8-BD1D-4073-809D-7B841594CFD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Diagonal Difference", "03. Multidimentional Arrays - Exercise\02. Diagonal Difference\02. Diagonal Difference.csproj", "{751F1D27-1B15-4569-9BD0-165468A901B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. 2x2 Squares in Matrix", "03. Multidimentional Arrays - Exercise\03. 2x2 Squares in Matrix\03. 2x2 Squares in Matrix.csproj", "{036151CA-B7B3-4F1D-A810-82F6252873B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Maximal Sum", "03. Multidimentional Arrays - Exercise\04. Maximal Sum\04. Maximal Sum.csproj", "{CADCEC89-F9EF-4A99-A008-A103336DF405}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Rubik’s Matrix", "03. Multidimentional Arrays - Exercise\05. Rubik’s Matrix\05. Rubik’s Matrix.csproj", "{777F6CA0-F46D-42D9-9EB6-F3AE73BA3DB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Target Practice", "03. Multidimentional Arrays - Exercise\06. Target Practice\06. Target Practice.csproj", "{371F5309-067C-4C71-99A7-F83FD5C6222D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Lego Blocks", "03. Multidimentional Arrays - Exercise\07. Lego Blocks\07. Lego Blocks.csproj", "{24257C09-8566-4A80-AFA5-5A22517E5EB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Radioactive Mutant Vampire Bunnies", "03. Multidimentional Arrays - Exercise\08. Radioactive Mutant Vampire Bunnies\08. Radioactive Mutant Vampire Bunnies.csproj", "{CF95A945-445D-42B1-B37E-634D5F5F88FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. The Heigan Dance", "03. Multidimentional Arrays - Exercise\10. The Heigan Dance\10. The Heigan Dance.csproj", "{7057F09B-F9BD-4905-B257-0A554B16E279}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. String Matrix Rotation", "03. Multidimentional Arrays - Exercise\12. String Matrix Rotation\12. String Matrix Rotation.csproj", "{15C85078-DE65-419C-9114-A9F965A222E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Crossfire", "03. Multidimentional Arrays - Exercise\09. Crossfire\09. Crossfire.csproj", "{AC06F141-EAF0-49F3-AE6C-9C9F4CAC5FAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Parking System", "03. Multidimentional Arrays - Exercise\11. Parking System\11. Parking System.csproj", "{2A04C21F-BCE4-474F-9102-45C639BE09AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -251,6 +277,14 @@ Global
 		{5F3A5BA3-DB78-4572-9E85-1730B22D6E20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F3A5BA3-DB78-4572-9E85-1730B22D6E20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F3A5BA3-DB78-4572-9E85-1730B22D6E20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EE8DF68-BBB9-4081-B09B-3C1F088ADFF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EE8DF68-BBB9-4081-B09B-3C1F088ADFF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EE8DF68-BBB9-4081-B09B-3C1F088ADFF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EE8DF68-BBB9-4081-B09B-3C1F088ADFF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46A4F0BA-2A79-4A1E-8795-C3A3C5318325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46A4F0BA-2A79-4A1E-8795-C3A3C5318325}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46A4F0BA-2A79-4A1E-8795-C3A3C5318325}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46A4F0BA-2A79-4A1E-8795-C3A3C5318325}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F5185C2C-04F1-4787-84DF-B8262CBF59D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F5185C2C-04F1-4787-84DF-B8262CBF59D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5185C2C-04F1-4787-84DF-B8262CBF59D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -263,14 +297,54 @@ Global
 		{2EE0AE17-9F53-4F43-A053-CDDCCCB8C7CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EE0AE17-9F53-4F43-A053-CDDCCCB8C7CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EE0AE17-9F53-4F43-A053-CDDCCCB8C7CB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4EE8DF68-BBB9-4081-B09B-3C1F088ADFF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4EE8DF68-BBB9-4081-B09B-3C1F088ADFF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4EE8DF68-BBB9-4081-B09B-3C1F088ADFF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4EE8DF68-BBB9-4081-B09B-3C1F088ADFF1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{46A4F0BA-2A79-4A1E-8795-C3A3C5318325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{46A4F0BA-2A79-4A1E-8795-C3A3C5318325}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{46A4F0BA-2A79-4A1E-8795-C3A3C5318325}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{46A4F0BA-2A79-4A1E-8795-C3A3C5318325}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE96BCD8-BD1D-4073-809D-7B841594CFD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE96BCD8-BD1D-4073-809D-7B841594CFD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE96BCD8-BD1D-4073-809D-7B841594CFD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE96BCD8-BD1D-4073-809D-7B841594CFD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{751F1D27-1B15-4569-9BD0-165468A901B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{751F1D27-1B15-4569-9BD0-165468A901B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{751F1D27-1B15-4569-9BD0-165468A901B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{751F1D27-1B15-4569-9BD0-165468A901B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{036151CA-B7B3-4F1D-A810-82F6252873B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{036151CA-B7B3-4F1D-A810-82F6252873B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{036151CA-B7B3-4F1D-A810-82F6252873B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{036151CA-B7B3-4F1D-A810-82F6252873B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CADCEC89-F9EF-4A99-A008-A103336DF405}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CADCEC89-F9EF-4A99-A008-A103336DF405}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CADCEC89-F9EF-4A99-A008-A103336DF405}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CADCEC89-F9EF-4A99-A008-A103336DF405}.Release|Any CPU.Build.0 = Release|Any CPU
+		{777F6CA0-F46D-42D9-9EB6-F3AE73BA3DB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{777F6CA0-F46D-42D9-9EB6-F3AE73BA3DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{777F6CA0-F46D-42D9-9EB6-F3AE73BA3DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{777F6CA0-F46D-42D9-9EB6-F3AE73BA3DB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{371F5309-067C-4C71-99A7-F83FD5C6222D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{371F5309-067C-4C71-99A7-F83FD5C6222D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{371F5309-067C-4C71-99A7-F83FD5C6222D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{371F5309-067C-4C71-99A7-F83FD5C6222D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24257C09-8566-4A80-AFA5-5A22517E5EB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24257C09-8566-4A80-AFA5-5A22517E5EB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24257C09-8566-4A80-AFA5-5A22517E5EB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24257C09-8566-4A80-AFA5-5A22517E5EB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF95A945-445D-42B1-B37E-634D5F5F88FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF95A945-445D-42B1-B37E-634D5F5F88FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF95A945-445D-42B1-B37E-634D5F5F88FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF95A945-445D-42B1-B37E-634D5F5F88FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7057F09B-F9BD-4905-B257-0A554B16E279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7057F09B-F9BD-4905-B257-0A554B16E279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7057F09B-F9BD-4905-B257-0A554B16E279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7057F09B-F9BD-4905-B257-0A554B16E279}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15C85078-DE65-419C-9114-A9F965A222E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15C85078-DE65-419C-9114-A9F965A222E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15C85078-DE65-419C-9114-A9F965A222E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15C85078-DE65-419C-9114-A9F965A222E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC06F141-EAF0-49F3-AE6C-9C9F4CAC5FAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC06F141-EAF0-49F3-AE6C-9C9F4CAC5FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC06F141-EAF0-49F3-AE6C-9C9F4CAC5FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC06F141-EAF0-49F3-AE6C-9C9F4CAC5FAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A04C21F-BCE4-474F-9102-45C639BE09AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A04C21F-BCE4-474F-9102-45C639BE09AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A04C21F-BCE4-474F-9102-45C639BE09AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A04C21F-BCE4-474F-9102-45C639BE09AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -313,11 +387,23 @@ Global
 		{01F27213-CC23-4C37-B4EA-70D41E3D219B} = {7E8A8342-FE82-4BC7-952F-11585B4ECDE1}
 		{8D82DBE2-5C49-4753-ADF9-CC89C583ABED} = {2F08BE0E-64E1-45F3-B4F0-B0625256D2FB}
 		{5F3A5BA3-DB78-4572-9E85-1730B22D6E20} = {E262297D-CF39-4D18-B98E-DDC3042554DC}
+		{4EE8DF68-BBB9-4081-B09B-3C1F088ADFF1} = {E262297D-CF39-4D18-B98E-DDC3042554DC}
+		{46A4F0BA-2A79-4A1E-8795-C3A3C5318325} = {E262297D-CF39-4D18-B98E-DDC3042554DC}
 		{F5185C2C-04F1-4787-84DF-B8262CBF59D7} = {E262297D-CF39-4D18-B98E-DDC3042554DC}
 		{3203C46C-5564-46FB-94DE-01E8979FF252} = {E262297D-CF39-4D18-B98E-DDC3042554DC}
 		{2EE0AE17-9F53-4F43-A053-CDDCCCB8C7CB} = {E262297D-CF39-4D18-B98E-DDC3042554DC}
-		{4EE8DF68-BBB9-4081-B09B-3C1F088ADFF1} = {E262297D-CF39-4D18-B98E-DDC3042554DC}
-		{46A4F0BA-2A79-4A1E-8795-C3A3C5318325} = {E262297D-CF39-4D18-B98E-DDC3042554DC}
+		{CE96BCD8-BD1D-4073-809D-7B841594CFD8} = {B8D3D5D5-E870-4226-A1AD-D6AA855E646A}
+		{751F1D27-1B15-4569-9BD0-165468A901B4} = {B8D3D5D5-E870-4226-A1AD-D6AA855E646A}
+		{036151CA-B7B3-4F1D-A810-82F6252873B0} = {B8D3D5D5-E870-4226-A1AD-D6AA855E646A}
+		{CADCEC89-F9EF-4A99-A008-A103336DF405} = {B8D3D5D5-E870-4226-A1AD-D6AA855E646A}
+		{777F6CA0-F46D-42D9-9EB6-F3AE73BA3DB0} = {B8D3D5D5-E870-4226-A1AD-D6AA855E646A}
+		{371F5309-067C-4C71-99A7-F83FD5C6222D} = {B8D3D5D5-E870-4226-A1AD-D6AA855E646A}
+		{24257C09-8566-4A80-AFA5-5A22517E5EB1} = {B8D3D5D5-E870-4226-A1AD-D6AA855E646A}
+		{CF95A945-445D-42B1-B37E-634D5F5F88FF} = {B8D3D5D5-E870-4226-A1AD-D6AA855E646A}
+		{7057F09B-F9BD-4905-B257-0A554B16E279} = {B8D3D5D5-E870-4226-A1AD-D6AA855E646A}
+		{15C85078-DE65-419C-9114-A9F965A222E1} = {B8D3D5D5-E870-4226-A1AD-D6AA855E646A}
+		{AC06F141-EAF0-49F3-AE6C-9C9F4CAC5FAC} = {B8D3D5D5-E870-4226-A1AD-D6AA855E646A}
+		{2A04C21F-BCE4-474F-9102-45C639BE09AA} = {B8D3D5D5-E870-4226-A1AD-D6AA855E646A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C49CA812-C97E-4852-A861-BF8128EBF75B}
