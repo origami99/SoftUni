@@ -6,7 +6,6 @@ class Program
 {
     static void Main()
     {
-        // TODO => (40/100) in judge
         string[] size = Console.ReadLine().Split();
         int r = int.Parse(size.First());
         int c = int.Parse(size.Last());
