@@ -42,20 +42,73 @@ class Program
                 matrix = Rotate270(matrix);
                 break;
         }
+
+        foreach (char[] row in matrix)
+        {
+            Console.WriteLine(new string(row));
+        }
     }
 
     private static char[][] Rotate90(char[][] matrix)
     {
-        throw new NotImplementedException();
+        int oldRowLength = matrix.Length;
+        int oldColLength = matrix.FirstOrDefault().Length;
+
+        char[][] rotatedMatrix = new char[oldColLength][]
+            .Select(x => new char[oldRowLength]).ToArray();
+
+        for (int row = 0; row < rotatedMatrix.Length; row++)
+        {
+            for (int col = 0; col < rotatedMatrix[row].Length; col++)
+            {
+                int oldRow = oldRowLength - col - 1;
+                int oldCol = row;
+                rotatedMatrix[row][col] = matrix[oldRow][oldCol];
+            }
+        }
+
+        return rotatedMatrix;
     }
 
     private static char[][] Rotate180(char[][] matrix)
     {
-        throw new NotImplementedException();
+        int oldRowLength = matrix.Length;
+        int oldColLength = matrix.FirstOrDefault().Length;
+
+        char[][] rotatedMatrix = new char[oldRowLength][]
+            .Select(x => new char[oldColLength]).ToArray();
+
+        for (int row = 0; row < rotatedMatrix.Length; row++)
+        {
+            for (int col = 0; col < rotatedMatrix[row].Length; col++)
+            {
+                int oldRow = oldRowLength - row - 1;
+                int oldCol = oldColLength - col - 1;
+                rotatedMatrix[row][col] = matrix[oldRow][oldCol];
+            }
+        }
+
+        return rotatedMatrix;
     }
 
     private static char[][] Rotate270(char[][] matrix)
     {
-        throw new NotImplementedException();
+        int oldRowLength = matrix.Length;
+        int oldColLength = matrix.FirstOrDefault().Length;
+
+        char[][] rotatedMatrix = new char[oldColLength][]
+            .Select(x => new char[oldRowLength]).ToArray();
+
+        for (int row = 0; row < rotatedMatrix.Length; row++)
+        {
+            for (int col = 0; col < rotatedMatrix[row].Length; col++)
+            {
+                int oldRow = col;
+                int oldCol = oldColLength - row - 1;
+                rotatedMatrix[row][col] = matrix[oldRow][oldCol];
+            }
+        }
+
+        return rotatedMatrix;
     }
 }
