@@ -123,6 +123,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Crossfire", "03. Multid
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Parking System", "03. Multidimentional Arrays - Exercise\11. Parking System\11. Parking System.csproj", "{2A04C21F-BCE4-474F-9102-45C639BE09AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. String Matrix Rotation_v2", "03. Multidimentional Arrays - Exercise\12. String Matrix Rotation_v2\12. String Matrix Rotation_v2.csproj", "{6F98B1DD-33EA-4E65-8480-44B20AEC973D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -345,6 +347,10 @@ Global
 		{2A04C21F-BCE4-474F-9102-45C639BE09AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A04C21F-BCE4-474F-9102-45C639BE09AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A04C21F-BCE4-474F-9102-45C639BE09AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F98B1DD-33EA-4E65-8480-44B20AEC973D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F98B1DD-33EA-4E65-8480-44B20AEC973D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F98B1DD-33EA-4E65-8480-44B20AEC973D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F98B1DD-33EA-4E65-8480-44B20AEC973D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -404,6 +410,7 @@ Global
 		{15C85078-DE65-419C-9114-A9F965A222E1} = {B8D3D5D5-E870-4226-A1AD-D6AA855E646A}
 		{AC06F141-EAF0-49F3-AE6C-9C9F4CAC5FAC} = {B8D3D5D5-E870-4226-A1AD-D6AA855E646A}
 		{2A04C21F-BCE4-474F-9102-45C639BE09AA} = {B8D3D5D5-E870-4226-A1AD-D6AA855E646A}
+		{6F98B1DD-33EA-4E65-8480-44B20AEC973D} = {B8D3D5D5-E870-4226-A1AD-D6AA855E646A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C49CA812-C97E-4852-A861-BF8128EBF75B}
